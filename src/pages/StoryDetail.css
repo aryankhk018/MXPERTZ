@@ -1,0 +1,176 @@
+.story-detail-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #181a3d 0%, #2b2c5e 100%);
+  padding: 0 0 40px 0;
+}
+.story-detail-header {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+.story-detail-header h1 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.story-detail-header .highlight {
+  color: #6d7cff;
+  font-weight: 700;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.tab-btn {
+  background: #23245a;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 18px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+  outline: none;
+}
+.tab-btn.active {
+  background: #3be2c6;
+  color: #181a3d;
+  font-weight: 700;
+}
+.story-detail-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: rgba(40, 42, 90, 0.95);
+  border-radius: 28px;
+  padding: 36px 32px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+.word-explorer-tab {
+  display: flex;
+  gap: 36px;
+}
+.word-explorer-left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.word-card {
+  background: #23245a;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 24px;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+.word-card h2 {
+  margin: 0 0 10px 0;
+  color: #6d7cff;
+  font-size: 1.3rem;
+}
+.word-card .noun {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.word-card .desc {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: #d6d6ff;
+}
+.word-img {
+  width: 100%;
+  max-width: 340px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 18px 0;
+  background: #fff;
+}
+.synonyms,
+.antonyms {
+  margin-top: 8px;
+  font-size: 1rem;
+}
+.synonyms .label,
+.antonyms .label {
+  color: #3be2c6;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.synonyms .value {
+  color: #fff;
+}
+.antonyms .value {
+  color: #ff4d8b;
+}
+.carousel-controls {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+.carousel-btn {
+  background: #6d7cff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.carousel-btn:hover {
+  background: #3be2c6;
+}
+.word-explorer-right {
+  flex: 2.5;
+  display: flex;
+  align-items: flex-start;
+}
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  width: 100%;
+}
+.img-card {
+  background: #23245a;
+  border-radius: 14px;
+  padding: 12px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-card img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.img-card p {
+  font-size: 0.95rem;
+  color: #d6d6ff;
+  text-align: center;
+}
+.tab-content {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+.loading {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2rem;
+}
